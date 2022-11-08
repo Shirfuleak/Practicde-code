@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { RoutesComp } from './routes/RoutesComp';
-
-
+import Animation  from './Components/Animation';
+import { motion } from 'framer-motion'
 function App() {
   return (
-    <div className="">
-     <RoutesComp></RoutesComp>
-
+    <div >
+     <Animation></Animation>
     </div>
   );
 }
